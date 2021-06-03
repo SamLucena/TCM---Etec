@@ -193,11 +193,8 @@ div.div-js{
         left: 0;
     }
 }
-@media (min-width:670px){
-    .btnAbre{
-        left: -100%;
-    }
-    .btnFecha{
-        right:-100%;
+@media (min-width:660px){
+    .btnAbre, .btnFecha{
+        display: none;
     }
 }
