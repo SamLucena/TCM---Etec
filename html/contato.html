@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleContato.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="../imagens/composicao/logo.png" alt="7tware logo" class="logo-principal"></a>
+        <nav id="menu">
+            <ul>
+                <li></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="portifolio.html">Portífolio</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="">Suporte</a></li>
+                <li><a href="projeto.html" target="_self" rel="follow">Projeto</a></li>
+                <li>
+                    <input type="search" name="txtPesquisa" id="txtPesquisa" placeholder="O que você deseja? ">
+                    <button type="submit" id="btnPesquisa" name="btnPesquisa" onclick="ingles()">Pesquisa</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend><h2>MENSAGEM</h2></legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="txtNome">Nome Completo:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtNome" name="txtNome" placeholder="Digite Aqui" maxlength="40" required autofocus>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtSenha">Senha: </label>
+                        </td>
+                        <td>
+                            <input type="password" id="txtSenha" name="txtSenha" maxlength="10" placeholder="Digite Aqui" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtEmail">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="txtEmail" name="txtEmail" placeholder="Digite Aqui" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dtData">Data de Nascimento:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="dtData" name="dtData">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="chbSexo">Sexo:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="chbSexo" id="chbSexo" value="F">Mulher
+                            <input type="radio" name="chbSexo" id="chbSexo" value="M">Homem
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtA">Deixe seu comentário:</label>
+                        </td>
+                        <td>
+                            <textarea name="txtA" id="txtA" cols="2" rows="8" maxlength="200" placeholder="Digite Aqui"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" class="buttonPesquisa">Enviar</button>
+                            <button type="reset" class="buttonPesquisa" onclick="document.getElementById('txtNome').focus()">Limpar</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="../imagens/icones/icFacebook.svg" alt="Ícone do Facebook" class="icons-footer"></a></li>
+            <li><img src="../imagens/icones/icInstagram.svg" alt="Ícone do Instagram" class="icons-footer"></li>
+            <li><img src="../imagens/icones/icLinkedin.svg" alt="Ícone do Linkedin" class="icons-footer"></li>
+            <li><img src="../imagens/icones/icWhatsapp.svg" alt="Ícone do Whatsapp" class="icons-footer"></li>
+            <li><img src="../imagens/icones/icEmail.svg" alt="Ícone do Email" class="icons-footer"></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,161 @@
+body{
+    background:linear-gradient(to right, #000, #0D1C26);
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    /* background-image: url("imagens/composicao/back-code.jpg"); */
+}
+/*Menu Fixo no topo*/
+/* header{
+    background-color: transparent; 
+    display: flex;
+    top: 0;
+    position: fixed;
+    background-color:#0d1c26c7;
+    width: 100%;
+} */
+header{
+    background-color: transparent; 
+    display: flex;
+    top:0;
+    width: 100%;
+}
+h1{
+    color:white;
+    font-size: 7vw;
+    display: inline-block;
+
+}
+.logo-principal{
+    width: 115px;
+    height: 45px;
+}
+.logo-principal:hover{
+    cursor: pointer;
+}
+#menu{
+    margin-top:1%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    background-color: transparent;  
+}
+ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:transparent;
+    color: white;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color:#00e7f9;
+}
+
+#txtPesquisa{
+    display: inline;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #00e7f9;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12.5px;
+    width: 13vw;
+    height: 25px;
+    color:white;
+    font-weight: bold;
+
+}
+#btnPesquisa, .buttonPesquisa{
+    background-color: transparent;
+    font-weight: bold;
+    color:#00e7f9;
+    border: 2px solid #00e7f9;
+    text-align: center;
+    border-radius: 5px;
+    height:25px;
+    cursor: pointer;
+}
+#btnPesquisa:hover, .buttonPesquisa:hover{
+    background-color: #00e7f9;
+    color: black;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    width: 99%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:#8197a4;
+    background-color: transparent;
+}
+.icons-footer{
+    width: 50px;
+    height: 50px;
+}
+.icons-footer:hover{
+    box-shadow: 0px 0px 10px 3px #00e7f9;
+}
+section{
+    padding-bottom:20px;
+    padding-right: 20px;
+    padding-left:20px;
+    margin-top:150px;
+    width: 50%;
+    color:white;
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+    max-width: 500px;
+    border: 1px solid #00e7f9;
+    background-color: #0d1c26c7;
+}
+.content-photo{
+    width: 150px;
+    height: 140px;
+    border-radius: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    /*Essa propriedade não deixa o menu interativo*/
+    /* transform: translateY(-30%); */
+    transform: translateY(-30%);
+    border: 2px solid #00e7f9;
+    
+}
+hr{
+    border: 2px double #183244c7;
+}
+div.div-js{
+    margin-left: 6%;
+    margin-top:50px;
+    width: 85%;
+    display: inline-block;
+    padding:20px;
+    background-color:transparent;
+    border-radius: 20px;
+    color:#071016;
+    background-image: url("../imagens/composicao/back-code.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 660px){
+    div.div-js{
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+        width:350px;
+    }
+    footer{
+        position: relative;
+    }
+}
