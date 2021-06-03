@@ -16,3 +16,10 @@ function showtext(el, text, interval) {
   }, interval);
 }
 showtext(el, text, interval);
+
+$('.btnAbre').click(function(){
+  $('header').toggleClass('mostra')
+});
+$('.btnFecha').click(function(){
+  $('header').toggleClass('mostra')
+});

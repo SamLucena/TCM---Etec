@@ -2,7 +2,6 @@ body{
     background:linear-gradient(to right, #000, #0D1C26);
     font-family: 'Roboto', sans-serif;
     background-attachment: fixed;
-    /* background-image: url("imagens/composicao/back-code.jpg"); */
 }
 /*Menu Fixo no topo*/
 /* header{
@@ -83,6 +82,10 @@ ul li {
     height:25px;
     cursor: pointer;
 }
+.buttonPesquisa{
+    align-items: center;
+    height: auto;
+}
 #btnPesquisa:hover, .buttonPesquisa:hover{
     background-color: #00e7f9;
     color: black;
@@ -149,13 +152,52 @@ div.div-js{
     background-size: cover;
 }
 @media (max-width: 660px){
-    div.div-js{
-        margin-left:auto;
-        margin-right:auto;
+    header{
+        left: -30%;
+        width: 30%;
+        background-color: #0d1c26c7;
+        margin:0;
         display: block;
-        width:350px;
+        position: fixed;
+        height: 35%;
+        text-align: center;
+        font-size: 20px;
+        transition: .5s;
+    }
+    #btnPesquisa, #txtPesquisa{
+        display: none;
+    }
+    #menu ul li a{
+        display: block;
+        
+    }
+    #menu ul li a:hover{
+        background-color: rgb(1, 26, 43);
+        transition: .5s;
     }
     footer{
         position: relative;
+    }
+    .btnFecha{
+        top: 3px;
+        position: relative;
+        cursor: pointer;
+    }
+    .btnAbre{
+        top:15px;
+        position: absolute;
+        left: 20px;
+        cursor: pointer;
+    }
+    header.mostra{
+        left: 0;
+    }
+}
+@media (min-width:670px){
+    .btnAbre{
+        left: -100%;
+    }
+    .btnFecha{
+        right:-100%;
     }
 }
