@@ -17,7 +17,7 @@ legend{
 h2{
     font-family: 'Share Tech Mono';
 }
-input[type=password], input[type=text], input[type=email],textarea, input[type=date]{
+input[type=text], input[type=email],textarea, input[type=date]{
     background-color: rgba(255, 255, 255, 0.89);
     border:2px solid #00e7f9;
     align-items: center;
@@ -32,12 +32,15 @@ input[type=radio]{
     margin-left: 50%;
 
 }
-input[type=password], input[type=date]{
+input[type=date]{
     width: 70%;
 }
 @media (max-width: 660px){
     main form fieldset table{
         width: 300px;
+    }
+    input[type=date]{
+        width: 150px;
     }
 }
 

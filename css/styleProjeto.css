@@ -54,11 +54,26 @@ aside ol li a:hover{
     padding:10px;
     margin-left:83%;
 } */
-.section-inline{
-    margin-left: 10%;
-    margin-top: 200px;
-    display:inline-block;
-    position: absolute;
+main {
+    background-color: transparent;
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.icons-main{
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+main article {
+    color: white;
+    padding: 15px;
+    max-width: 225px;
+    margin: 5px;
 }
 
 @media (max-width: 650px){
@@ -67,5 +82,15 @@ aside ol li a:hover{
     }
     section ol li div{
         font-size: 13px;
+    }
+    main {
+        margin: 3vw 21vw;
+        justify-content: center;
+        display: block;
+    }
+}
+@media only screen and (max-width: 900px){
+    article{
+        display: block;
     }
 }
