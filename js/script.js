@@ -23,3 +23,6 @@ $('.btnAbre').click(function(){
 $('.btnFecha').click(function(){
   $('header').toggleClass('mostra')
 });
+$('.btnAbreProjeto').click(function(){
+  $('aside').toggleClass('mostra')
+});

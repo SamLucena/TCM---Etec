@@ -40,5 +40,11 @@ document.addEventListener('DOMContentLoaded',function(event){
     StartTextAnimation(0);
   });
   
-  
+  $('.btnAbre').click(function(){
+    $('header').toggleClass('mostra')
+  });
+  $('.btnFecha').click(function(){
+    $('header').toggleClass('mostra')
+  });
   Resources
+  

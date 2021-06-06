@@ -77,19 +77,43 @@ main article {
 }
 
 @media (max-width: 650px){
-    aside{
-        display:none;
+    .btnAbreProjeto{
+        top:15px;
+        left: 20px;
+        cursor: pointer;
     }
-    section ol li div{
-        font-size: 13px;
+    aside ol{
+        width: auto;
+        margin: 0;
+        text-align: center;
+        padding: 5px;
+    }
+    aside{
+        left: -30%;
+        text-align: center;
+    }
+    aside ol li{
+        list-style: none;
+    }
+    section div ol li{
+        font-size: 12px;
     }
     main {
         margin: 3vw 21vw;
         justify-content: center;
         display: block;
     }
+    aside.mostra{
+        width: auto;
+        transition: .6s;
+        left:15px;
+        font-size: 8px;
+    }  
 }
-@media only screen and (max-width: 900px){
+@media only screen and (min-width: 670px){
+    .btnAbreProjeto{
+        display: none;
+    }
     article{
         display: block;
     }
