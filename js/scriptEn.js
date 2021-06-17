@@ -1,5 +1,5 @@
 var el = document.querySelector("#text");
-var text = "Inovando suas idéias."
+var text = "Innovating your ideas."
 var interval = 150;
 function showtext(el, text, interval) {
   var char = text.split("").reverse();

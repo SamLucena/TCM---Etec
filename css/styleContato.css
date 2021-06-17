@@ -42,6 +42,9 @@ input[type=date]{
     input[type=date]{
         width: 150px;
     }
+    input[type=text], input[type=email], textarea{
+        width: 220px;
+    }
 }
 
 

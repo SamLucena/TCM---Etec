@@ -6,7 +6,7 @@ section{
     background-color:transparent;
     padding: 15px;
     border: 1px solid #00e7f9;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 ol li{
     list-style: disc;
@@ -22,6 +22,7 @@ ol li{
     display:block;
     transform: translateY(-50%);
     border: 2px solid #00e7f9;
+    object-fit: cover;
 }
 aside{
     font-size: 1.1vw;
@@ -35,9 +36,6 @@ aside{
     margin-left: 5%;
     transform: translateY(-50%);
 } 
-.p-green{
-    color:#004044;
-}
 
 aside ol li a{
     background-color:transparent;
@@ -49,11 +47,6 @@ aside ol li a{
 aside ol li a:hover{
     color:black;
 }
-/* .aside-right{
-    font-size: normal;
-    padding:10px;
-    margin-left:83%;
-} */
 main {
     background-color: transparent;
     margin: 20px 0;
@@ -76,7 +69,7 @@ main article {
     margin: 5px;
 }
 
-@media (max-width: 650px){
+@media (max-width: 680px){
     .btnAbreProjeto{
         top:15px;
         left: 20px;
@@ -96,7 +89,7 @@ main article {
         list-style: none;
     }
     section div ol li{
-        font-size: 12px;
+        font-size: 15px;
     }
     main {
         margin: 3vw 21vw;
@@ -109,12 +102,14 @@ main article {
         left:15px;
         font-size: 8px;
     }  
+    main article{
+        display: block;
+        margin-top: 60px;
+    }
 }
 @media only screen and (min-width: 670px){
     .btnAbreProjeto{
         display: none;
     }
-    article{
-        display: block;
-    }
+    
 }

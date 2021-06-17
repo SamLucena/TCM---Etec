@@ -95,10 +95,11 @@ footer{
     width: 50px;
     height: 50px;
 }
+
 .icons-footer:hover{
-    box-shadow: 0px 0px 10px 3px #00e7f9;
+    box-shadow: 3px 3px #00e7f9;
 }
-section{
+.section-home{
     padding-bottom:20px;
     padding-right: 20px;
     padding-left:20px;
@@ -139,6 +140,18 @@ div.div-js{
     background-repeat: no-repeat;
     background-size: cover;
 }
+p{
+    text-align: center;
+    font-size: 15px;
+    color:#004044;
+}
+.list-code{
+    font-size: 15px;
+}
+.list-code li{
+    list-style: url("../imagens/icones/icCodeHtml.svg");
+    list-style-position: outside;
+}
 @media (max-width: 660px){
     header{
         left: -30%;
@@ -147,7 +160,7 @@ div.div-js{
         margin:0;
         display: block;
         position: fixed;
-        height: 31%;
+        height: 36.8%;
         text-align: center;
         font-size: 20px;
         transition: .6s;
@@ -192,5 +205,8 @@ div.div-js{
 @media (min-width:660px){
     .btnAbre, .btnFecha{
         display: none;
+    }
+    p{
+        font-size: 20px;
     }
 }
